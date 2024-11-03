@@ -1,0 +1,52 @@
+{
+  "camera": {
+    "hFov": 70.42796571601109,
+    "vFov": 41.16,
+    "height": 1.0,
+    "pitch": 5.710593137499643,
+    "vfov": 43.30672187287323,
+    "number": 0
+  },
+  "min_area_ratio": 0.001,
+  "blurLevel_ratio": 0.0025,
+  "merge_distance": 0.05,
+  "block_colors": ["red", "green", "blue", "yellow"],
+  "min_wall_area_ratio": 0.01,
+  "min_line_area_ratio": 0.001,
+  "blurLevel_ratio_to_get_edge": 0.1,
+  "kernel_size": 0.1,
+  "colors": {
+    "red": [0, 255, 255],
+    "green": [78, 255, 255],
+    "blue": [100, 255, 255],
+    "yellow": [30, 255, 255]
+  },
+  "color_ranges": {
+    "red": {
+      "lower1": [0, 150, 70],
+      "upper1": [10, 255, 255],
+      "lower2": [178, 150, 70],
+      "upper2": [180, 255, 255]
+    },
+    "green": {
+      "lower": [35, 100, 80],
+      "upper": [85, 255, 255]
+    },
+    "blue": {
+      "lower": [95, 120, 100],
+      "upper": [130, 255, 255]
+    },
+    "yellow": {
+      "lower": [25, 150, 100],
+      "upper": [35, 255, 255]
+    },
+    "white": {
+      "lower": [0, 0, 170],
+      "upper": [180, 40, 255]
+    },
+    "black": {
+      "lower": [0, 0, 0],
+      "upper": [180, 255, 100]
+    }
+  }
+}
